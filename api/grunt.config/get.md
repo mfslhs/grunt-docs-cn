@@ -2,10 +2,15 @@
 
 获取配置。
 
-### .get([prop])
+### .get()
 
 * `prop` String - 配置的键
 * 返回值 Object
+
+### .get([prop])
+
+* `prop` String - 配置的键
+* 返回值 AnyType
 
 获取全部配置：
 
