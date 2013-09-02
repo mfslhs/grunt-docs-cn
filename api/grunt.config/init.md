@@ -2,7 +2,7 @@
 
 为当前项目初始化一个配置对象。
 
-## .init(config)
+### .init(config)
 
 * `config` Object
 * 返回值 Object
