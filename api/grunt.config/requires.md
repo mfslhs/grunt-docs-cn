@@ -5,7 +5,7 @@
 ### .requires(prop [, prop [, ...]])
 
 * `prop` String - 配置的键
-* 返回值 Void
+* 返回值 Boolean
 
 当配置中对应的 `prop` 属性不存在或为 `null` 或为 `undefined` 时，程序终止：
 
