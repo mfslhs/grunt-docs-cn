@@ -1,5 +1,3 @@
-[http://gruntjs.cn/config.init/](http://gruntjs.cn/config.init/)
-
 # grunt.config.init()
 
 为当前项目初始化一个配置对象。
@@ -25,3 +23,5 @@
         name: '<%= host %>'
     });
     //调用 grunt.config() 输出：{ host: 'gruntjs.cn', name: 'gruntjs.cn'}
+
+来源：[http://gruntjs.cn/api/config.init/](http://gruntjs.cn/api/config.init/)
