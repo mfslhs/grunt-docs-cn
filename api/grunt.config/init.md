@@ -1,11 +1,15 @@
+[http://gruntjs.cn/config.init/](http://gruntjs.cn/config.init/)
+
 # grunt.config.init()
 
-为当前项目初始化一个配置对象，同 `grunt.initConfig()`。
+为当前项目初始化一个配置对象。
 
 ## .init(config)
 
 * `config` Object
 * 返回值 Object
+
+该方法同 `grunt.initConfig()`。
 
 `config` 可通过 `grunt.config()` 访问：
 
