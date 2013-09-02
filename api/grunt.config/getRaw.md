@@ -2,10 +2,15 @@
 
 获取配置，但不处理模板字符串。
 
-### .getRaw([prop])
+### .getRaw()
 
 * `prop` String - 配置的键
 * 返回值 Object
+
+### .getRaw(prop)
+
+* `prop` String - 配置的键
+* 返回值 AnyType
 
 例子：
 
