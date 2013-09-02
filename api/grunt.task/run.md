@@ -4,7 +4,12 @@
 
 ### .run(taskName)
 
-* `taskName` String - 插件名
+* `taskName` String - 任务名
+* 返回值 Object
+
+### .run(taskList)
+
+* `taskList` Array[String] - 任务列表
 * 返回值 Object
 
 运行一个任务：
@@ -21,9 +26,8 @@
 
     grunt.registerTask('a', '', function(){});
     grunt.registerTask('b', '', function(){});
-    grunt.registerTask('gruntjs.cn', ['a', 'b']);
     grunt.registerTask('default', '', function(){
-        grunt.task.run('gruntjs.cn');
+        grunt.task.run(['a', 'b']);
     });
     //运行 grunt
     //Running "default" task
