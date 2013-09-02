@@ -1,4 +1,11 @@
-该方法同 `grunt.initConfig()`。
+# grunt.config.init()
+
+为当前项目初始化一个配置对象，同 `grunt.initConfig()`。
+
+## .init(config)
+
+* `config` Object
+* 返回值 Object
 
 `config` 可通过 `grunt.config()` 访问：
 
